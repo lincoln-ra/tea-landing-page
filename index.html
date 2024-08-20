@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Tea Landing Page</title>
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/6280a92ace.js" crossorigin="anonymous"></script>
+
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+    </script>
+
+</head>
+<body class="mx-32">
+    <header class="flex items-center justify-between">
+        <div>
+            <h1 class="text-5xl font-bold mb-4 leading-tight">It's good <br>
+                tea time at The <br> Tea House</h1>
+            <p class="pr-32 mb-2">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+            <button class="h-14 bg-gradient-to-r from-[#FF8938] to-[#FF0000] py-1 px-3 flex items-center gap-3 rounded-lg">Explore more <img src="images/arrow.png" alt=""></button>
+        </div>
+        <div>
+            <img src="images/banner.png" alt="">
+            <div class="relative bottom-28 w-56 left-10 bg-white p-6 shadow-lg rounded-lg flex items-center gap-2">
+              <i class="fa-solid fa-star fa-2xl" style="color: #ffc805;"></i>
+              <div>
+                <h2 class="font-bold text-2xl">5.00</h2>
+                <p>Trust Pilot Ratings</p></div>
+            </div>
+        </div>
+    </header>
+    <main>
+      <section>
+        <div class="text-center px-28"><h2 class="font-bold text-4xl mb-4">Our Featured Product</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores animi omnis ipsum illum repellendus nemo aliquid neque, ipsam quaerat numquam cumque similique molestiae dolore corrupti! Id odit necessitatibus ullam quas!</p>
+        </div>
+        <div class="flex justify-between mt-6">
+          <div class="p-4 text-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+            <img class="mx-auto"  src="images/tea-1.png" alt="">
+            <h3 class="font-semibold text-2xl mt-4 mb-2">Milk Tea
+            </h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-4 text-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+            <img class="mx-auto"  src="images/tea-2.png" alt="">
+            <h3 class="font-semibold text-2xl mt-4 mb-2">Milk Tea
+            </h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-4 text-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+            <img class="mx-auto"  src="images/tea-3.png" alt="">
+            <h3 class="font-semibold text-2xl mt-4 mb-2">Milk Tea
+            </h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="p-4 text-center bg-gradient-to-b from-[#F4F4F4] to-[#f4f4f400]">
+            <img class="mx-auto"  src="images/tea-4.png" alt="">
+            <h3 class="font-semibold text-2xl mt-4 mb-2">Milk Tea
+            </h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+        </div>
+        
+      </section>
+      <section class="flex justify-between items-center mt-40 gap-10 ">
+        <div class="grid grid-cols-2
+        grid-rows-3 w-1/2 gap-3">
+          <div class="rounded-lg bg-gradient-to-r from-[#ff00003a] to-[#ff883833]"></div>
+          <div class="bg-[#E6A6231A] row-span-2 rounded-lg py-14"><img class="mx-auto" src="images/fresh-1.png" alt=""></div>
+          <div class="bg-[#5776391A] row-span-2 rounded-lg py-14"><img class="mx-auto" src="images/fresh-2.png " alt=""></div>
+          <div class="rounded-lg bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF]"></div>
+        </div>
+        <div class="w-1/2">
+          <h2 class="font-bold text-4xl mb-4">Lorem ipsum dolor sit amet.</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel incidunt eius tempore laudantium obcaecati ullam esse asperiores officia sequi consequatur neque reprehenderit, assumenda, provident ad aliquid. Odio nulla autem aliquid.</p>
+          <h3 class="font-bold text-2xl mt-5 mb-4">Lorem, ipsum dolor.</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque veniam fuga dolore omnis, repellendus ex.</p>
+          <h3 class="font-bold text-2xl my-4">Lorem, ipsum dolor.</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatem ab, esse a voluptatum perferendis!</p>
+        </div>
+      </section>
+      <section class="mt-20 px-14 py-20 flex items-center rounded-lg bg-gradient-to-r from-[#FF8938] to-[#FF0000]">
+        <div class="w-1/2 py-32 pr-10 text-white">
+          <h2 class="text-4xl font-bold mb-6">Lorem, ipsum dolor.</h2>
+          <p class="mb-6 leading-normal pr-16">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, sit recusandae dignissimos earum qui rem iusto? Iusto optio quibusdam sunt Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, explicabo??</p>
+          <button class="h-10 bg-white w-28 rounded-lg text-[#FF0000]">Show All</button>
+        </div>
+          <div class="w-1/2 relative z-10">   
+            <div>
+              <div class="bg-white p-10 rounded-lg mb-10 relative opacity-50">
+                <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quis tenetur animi est iusto perferendis Lorem ipsum dolor sit amet.</p>
+                <h3 class="text-lg font-semibold mb-2">Name Whatever</h3>
+                <p>Lorem, ipsum.</p>
+                <img class="rounded-full bg-gray-100 border-4  absolute -top-7 -left-7     " src="images/client.png" alt="">
+                
+             </div>
+            </div>
+            
+           <div class="bg-white p-10 rounded-lg relative opacity-50">
+            <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quis tenetur animi est iusto perferendis Lorem ipsum dolor sit amet. </p>
+            <h3 class="text-lg font-semibold mb-2">Name Whatever</h3>
+            <p>Lorem, ipsum.</p>
+            <img class="rounded-full bg-gray-100 border-4  absolute -top-7 -left-7     " src="images/client.png" alt="">
+            
+         </div>
+         <div class="absolute top-32 right-14 -left-14">
+          <div class="bg-white p-10 rounded-lg relative">
+            <p class="mb-6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur quis tenetur animi est iusto perferendis Lorem ipsum dolor sit amet.</p>
+            <h3 class="text-lg font-semibold mb-2">Name Whatever</h3>
+            <p>Lorem, ipsum.</p>
+            <img class="rounded-full bg-gray-100 border-4  absolute -top-7 -left-7     " src="images/client.png" alt="">
+            <img class="mb-4 absolute right-6" src="images/circles.png
+            " alt="">
+         </div>
+         </div>
+        </div>
+      </section>
+      <section class="mt-20">
+        <div class="text-center mx-40 mb-10">
+          <h2 class="text-4xl font-bold mb-6" >Lorem, ipsum dolor.</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, molestiae. Itaque atque autem porro, harum dolorum nihil magnam dolorem laboriosam.</p>
+        </div>
+        
+        <div class="flex justify-between">
+          <div class="border-2 border-[#bcbcbc] rounded-xl mr-5 p-5">
+            <img class="w-full mb-5 " src="images/news-1.png" alt="">
+            <p>Jna 01 2024</p>
+            <h3 class="text-2xl font-bold mb-3">Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam.</p>
+            <h4 class="text-xl font-semibold">learn more</h4>
+          </div>
+
+          <div class="border-2 border-[#bcbcbc] rounded-xl mr-5 p-5">
+            <img class="w-full mb-5 " src="images/news-1.png" alt="">
+            <p>Jna 01 2024</p>
+            <h3 class="text-2xl font-bold mb-3">Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam.</p>
+            <h4 class="text-xl font-semibold">learn more</h4>
+          </div>
+
+          <div class="border-2 border-[#bcbcbc] rounded-xl mr-5 p-5">
+            <img class="w-full mb-5 " src="images/news-1.png" alt="">
+            <p>Jna 01 2024</p>
+            <h3 class="text-2xl font-bold mb-3">Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, totam.</p>
+            <h4 class="text-xl font-semibold">learn more</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+</body>
+<footer>
+
+</footer>
+</html>
